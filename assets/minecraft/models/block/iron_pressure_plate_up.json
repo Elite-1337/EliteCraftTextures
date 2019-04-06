@@ -1,0 +1,8 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/sanity/pressure_plate_up",
+    "textures": {
+		"material": "blocks/sanity/iron_pressure_plate_off"
+    }
+}

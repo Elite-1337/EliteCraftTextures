@@ -1,0 +1,13 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/sanity/grass",
+    "textures": {
+        "particle": "blocks/dirt",
+        "bottom": "blocks/dirt",
+        "top": "blocks/grass_top",
+        "side": "blocks/grass_side",
+        "overlay": "blocks/grass_side_overlay",
+		"grass": "blocks/sanity/grass_top_blades"
+    }
+}

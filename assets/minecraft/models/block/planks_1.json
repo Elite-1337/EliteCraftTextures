@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "blocks/planks_oak",
+        "down": "blocks/planks_oak",
+        "up": "blocks/planks_oak",
+        "side": "blocks/sanity/oak_side"
+    }
+}

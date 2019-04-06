@@ -1,0 +1,103 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "textures": {
+        "particle": "blocks/ice",
+        "outside": "blocks/ice",
+        "inside": "blocks/sanity/ice_inside",
+        "triangle": "blocks/sanity/ice_triangle"
+    },
+    "elements": [
+		{
+            "from": [0,0,0],
+            "to": [16,16,0],
+			"shade": false,
+            "faces": {
+                "north": {
+                    "texture": "#outside",
+                    "cullface": "north"
+                },
+                "south": {
+                    "texture": "#inside",
+                    "cullface": "north"
+                }
+            }
+        },
+        {
+            "from": [0,0,16],
+            "to": [16,16,16],
+			"shade": false,
+            "faces": {
+                "north": {
+                    "texture": "#inside",
+                    "cullface": "south"
+                },
+                "south": {
+                    "texture": "#outside",
+                    "cullface": "south"
+                }
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [0,16,16],
+			"shade": false,
+            "faces": {
+                "west": {
+                    "texture": "#outside",
+                    "cullface": "west"
+                },
+                "east": {
+                    "texture": "#inside",
+                    "cullface": "west"
+                }
+            }
+        },
+        {
+            "from": [16,0,0],
+            "to": [16,16,16],
+			"shade": false,
+            "faces": {
+                "west": {
+                    "texture": "#inside",
+                    "cullface": "east"
+                },
+                "east": {
+                    "texture": "#outside",
+                    "cullface": "east"
+                }
+            }
+        },
+        {
+            "from": [0,16,0],
+            "to": [16,16,16],
+			"shade": false,
+            "faces": {
+                "up": {
+                    "texture": "#outside",
+                    "cullface": "up"
+                },
+                "down": {
+                    "texture": "#inside",
+                    "cullface": "up"
+                }
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [16,0,16],
+			"shade": false,
+            "faces": {
+                "up": {
+                    "texture": "#inside",
+                    "cullface": "down"
+                },
+                "down": {
+                    "texture": "#outside",
+                    "cullface": "down"
+                }
+            }
+        }
+    ]
+}

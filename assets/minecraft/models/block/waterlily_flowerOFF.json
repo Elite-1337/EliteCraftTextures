@@ -1,0 +1,55 @@
+{
+"__comment": "Designed by tomaxed with Cubik",
+"textures": {
+    "particle": "blocks/waterlily",
+    "texture": "blocks/waterlily",
+    "waterlily_plant": "blocks/waterlily_plant",
+    "waterlily_flower": "blocks/waterlily_flower"
+},
+"elements": [ 
+{
+    "from": [ 0, -0.0625, 0 ],
+    "to": [ 16, 0, 16 ],
+    "faces": {
+        "down":  { "uv": [ 0, 16, 16, 0 ], "texture": "#texture", "tintindex": 0 },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "tintindex": 0 }
+    }
+},
+{
+    "from": [ 2.375, -16, 2.4375 ],
+    "to": [ 2.4375, 0, 18.4375 ],
+    "rotation": { "origin": [ 2.375, -16, 2.4375 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#waterlily_plant" },
+        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#waterlily_plant" }
+    }
+},
+{
+    "from": [ 13.6875, -16, 2.4375 ],
+    "to": [ 13.75, 0, 18.4375 ],
+    "rotation": { "origin": [ 13.6875, -16, 2.4375 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#waterlily_plant" },
+        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#waterlily_plant" }
+    }
+},
+{
+    "from": [ 2.3125, 0, 2.5 ],
+    "to": [ 2.375, 16, 18.5 ],
+    "rotation": { "origin": [ 2.3125, 0, 2.5 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#waterlily_flower" },
+        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#waterlily_flower" }
+    }
+},
+{
+    "from": [ 13.5625, 0, 2.4375 ],
+    "to": [ 13.625, 16, 18.4375 ],
+    "rotation": { "origin": [ 13.5625, 0, 2.4375 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#waterlily_flower" },
+        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#waterlily_flower" }
+    }
+}
+]
+}

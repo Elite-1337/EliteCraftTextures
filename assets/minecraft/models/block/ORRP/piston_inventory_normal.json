@@ -1,0 +1,10 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "blocks/piston_bottom",
+        "side": "blocks/sanity/piston_side",
+        "top": "blocks/piston_top_normal"
+    }
+}

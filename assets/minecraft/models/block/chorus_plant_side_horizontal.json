@@ -1,0 +1,51 @@
+{
+	"__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+		"particle": "blocks/chorus_plant",
+        "texture": "blocks/sanity/chorus_plant_sides"
+    },
+    "elements": [
+        {
+            "name": "Plane1",
+            "from": [ 9.0, 0.0, 0.0 ], 
+            "to": [ 9.0, 12.0, 2.0 ], 
+            "rotation": { "origin": [ 9.0, 8.0, 4.0 ], "axis": "y", "angle": -45.0, "rescale": true },
+            "faces": {
+                "east": { "texture": "#texture", "uv": [ 2.0, 4.0, 0.0, 16.0 ] },
+                "west": { "texture": "#texture", "uv": [ 0.0, 3.0, 2.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Plane1b",
+            "from": [ 9.0, 2.0, 2.0 ], 
+            "to": [ 9.0, 12.0, 4.0 ], 
+            "rotation": { "origin": [ 9.0, 8.0, 4.0 ], "axis": "y", "angle": -45.0, "rescale": true },
+            "faces": {
+                "east": { "texture": "#texture", "uv": [ 4.0, 4.0, 2.0, 14.0 ] },
+                "west": { "texture": "#texture", "uv": [ 2.0, 4.0, 4.0, 14.0 ] }
+            }
+        },
+        {
+            "name": "Plane2",
+            "from": [ 7.0, 0.0, 0.0 ], 
+            "to": [ 7.0, 12.0, 2.0 ], 
+            "rotation": { "origin": [ 7.0, 8.0, 4.0 ], "axis": "y", "angle": 45.0, "rescale": true },
+            "faces": {
+                "east": { "texture": "#texture", "uv": [ 14.0, 4.0, 16.0, 16.0 ] },
+                "west": { "texture": "#texture", "uv": [ 16.0, 4.0, 14.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Plane2b",
+            "from": [ 7.0, 2.0, 2.0 ], 
+            "to": [ 7.0, 12.0, 4.0 ], 
+            "rotation": { "origin": [ 7.0, 8.0, 4.0 ], "axis": "y", "angle": 45.0, "rescale": true },
+            "faces": {
+                "east": { "texture": "#texture", "uv": [ 12.0, 4.0, 14.0, 14.0 ] },
+                "west": { "texture": "#texture", "uv": [ 14.0, 4.0, 12.0, 14.0 ] }
+            }
+        }
+    ]
+}

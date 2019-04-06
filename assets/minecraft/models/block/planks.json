@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "blocks/sanity/spruce_planks",
+        "down": "blocks/sanity/spruce_planks_bottom",
+        "up": "blocks/sanity/spruce_planks",
+        "side": "blocks/planks_spruce"
+    }
+}

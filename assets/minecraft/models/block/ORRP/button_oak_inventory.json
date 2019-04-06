@@ -1,0 +1,8 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/sanity/button_inventory",
+    "textures": {
+        "texture": "blocks/sanity/button_oak", "material": "blocks/planks_oak"
+    }
+}

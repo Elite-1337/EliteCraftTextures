@@ -1,0 +1,35 @@
+{
+"parent": "predicate/golden_axe",
+"textures": {
+    "particle": "weaponstools/golden_axe3",
+    "texture": "weaponstools/golden_axe3"
+},
+
+"display": {
+    "thirdperson_righthand": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 2.65, 1.89 ],
+        "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "ground": {
+        "rotation": [ 45, 0, 0 ],
+        "translation": [ 0, 3.97, 0 ],
+        "scale": [ 0.35, 0.35, 0.35 ]
+    },
+    "fixed": {
+        "rotation": [ 90, -45, 90 ],
+        "translation": [ 4.54, -3.78, -0.19 ],
+        "scale": [ 0.84, 0.84, 0.84 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ 14, 3, -4 ],
+        "translation": [ 5.86, -0.56, -4.91 ],
+        "scale": [ 0.7, 0.7, 0.7 ]
+    },
+    "gui": {
+        "rotation": [ -90, -45, -90 ],
+        "translation": [ -3.02, -3.59, 0 ],
+        "scale": [ 0.7, 0.7, 0.7 ]
+    }
+}
+}

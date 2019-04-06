@@ -1,0 +1,9 @@
+{
+    "parent": "item/_loot_chest_top",
+    "textures": {
+        "particle": "blocks/planks_oak",
+        "texture": "blocks/planks_birch",
+		"iron_block": "blocks/gold_block",
+		"anvil_base": "blocks/anvil_base"
+    }
+}

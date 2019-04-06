@@ -1,0 +1,38 @@
+{  
+	"__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/chorus_plant",
+        "texture": "blocks/sanity/chorus_plant_sides"
+    },
+    "elements": [
+        {
+            "from": [8,0,2],
+            "to": [8,3,14],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "faces": {
+                "west": {
+                    "texture": "texture"
+                },
+                "east": {
+                    "texture": "texture"
+                }
+            }
+        },
+        {
+            "from": [2,0,8],
+            "to": [14,3,8],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "faces": {
+                "north": {
+                    "texture": "texture"
+                },
+                "south": {
+                    "texture": "texture"
+                }
+            }
+        }
+    ]
+}

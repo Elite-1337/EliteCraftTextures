@@ -1,0 +1,7 @@
+{
+    "parent": "block/grass_parent_2",
+    "textures": {
+		"top": "blocks/grass_top_2",
+		"grass": "blocks/better_tallgrass_2"
+		}
+} 

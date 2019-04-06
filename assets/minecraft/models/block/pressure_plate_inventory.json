@@ -1,0 +1,6 @@
+{
+    "parent": "block/sanity/pressure_plate_inventory",
+    "textures": {
+		"material": "blocks/sanity/oak_slab_1"
+    }
+}

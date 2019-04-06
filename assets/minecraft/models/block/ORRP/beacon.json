@@ -1,0 +1,429 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/beacon",
+        "obsidian": "blocks/enchanting_table_bottom",
+        "glass_side": "blocks/sanity/beacon_glass_side",
+        "glass_top": "blocks/sanity/beacon_glass_top",
+        "star": "blocks/sanity/beacon_nether_star",
+        "beacon": "blocks/beacon"
+    },
+	"display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 0],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 225, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    },
+    "elements": [
+        {
+            "from": [0,0,0],
+            "to": [16,2,16],
+            "faces": {
+                "up": {
+                    "texture": "#beacon"
+                },
+                "down": {
+                    "texture": "#obsidian",
+                    "cullface": "down"
+                },
+                "west": {
+                    "texture": "#obsidian",
+                    "cullface": "west"
+                },
+                "east": {
+                    "texture": "#obsidian",
+                    "cullface": "east"
+                },
+                "north": {
+                    "texture": "#obsidian",
+                    "cullface": "north"
+                },
+                "south": {
+                    "texture": "#obsidian",
+                    "cullface": "south"
+                }
+            }
+        },
+        {
+            "from": [0,2,0],
+            "to": [4,6,4],
+            "faces": {
+                "up": {
+                    "texture": "#obsidian"
+                },
+                "west": {
+                    "texture": "#obsidian",
+                    "cullface": "west"
+                },
+                "east": {
+                    "uv": [12,6,16,10],
+                    "texture": "#obsidian"
+                },
+                "north": {
+                    "uv": [12,10,16,14],
+                    "texture": "#obsidian",
+                    "cullface": "north"
+                },
+                "south": {
+                    "uv": [0,6,4,10],
+                    "texture": "#obsidian"
+                }
+            }
+        },
+        {
+            "from": [12,2,12],
+            "to": [16,6,16],
+            "faces": {
+                "up": {
+                    "texture": "#obsidian"
+                },
+                "west": {
+                    "uv": [12,6,16,10],
+                    "texture": "#obsidian"
+                },
+                "east": {
+                    "uv": [0,10,4,14],
+                    "texture": "#obsidian",
+                    "cullface": "east"
+                },
+                "north": {
+                    "uv": [0,6,4,10],
+                    "texture": "#obsidian"
+                },
+                "south": {
+                    "texture": "#obsidian",
+                    "cullface": "south"
+                }
+            }
+        },
+        {
+            "from": [12,2,0],
+            "to": [16,6,4],
+            "faces": {
+                "up": {
+                    "texture": "#obsidian"
+                },
+                "west": {
+                    "uv": [0,6,4,10],
+                    "texture": "#obsidian"
+                },
+                "east": {
+                    "uv": [12,10,16,14],
+                    "texture": "#obsidian",
+                    "cullface": "east"
+                },
+                "north": {
+                    "uv": [0,10,4,14],
+                    "texture": "#obsidian",
+                    "cullface": "north"
+                },
+                "south": {
+                    "uv": [12,6,16,10],
+                    "texture": "#obsidian"
+                }
+            }
+        },
+        {
+            "from": [0,2,12],
+            "to": [4,6,16],
+            "faces": {
+                "up": {
+                    "texture": "#obsidian"
+                },
+                "west": {
+                    "texture": "#obsidian",
+                    "cullface": "west"
+                },
+                "east": {
+                    "uv": [0,6,4,10],
+                    "texture": "#obsidian"
+                },
+                "north": {
+                    "uv": [12,6,16,10],
+                    "texture": "#obsidian"
+                },
+                "south": {
+                    "texture": "#obsidian",
+                    "cullface": "south"
+                }
+            }
+        },
+        {
+            "from": [4,16,4],
+            "to": [12,16,12],
+            "faces": {
+                "up": {
+                    "texture": "#glass_top",
+                    "cullface": "up"
+                },
+                "down": {
+                    "texture": "#glass_top"
+                }
+            }
+        },
+        {
+            "from": [1,2,1],
+            "to": [15,13,1],
+            "faces": {
+                "north": {
+                    "uv": [1,5,15,16],
+                    "texture": "#glass_side"
+                },
+                "south": {
+                    "uv": [1,5,15,16],
+                    "texture": "#glass_side"
+                }
+            }
+        },
+        {
+            "from": [1,2,15],
+            "to": [15,13,15],
+            "faces": {
+                "north": {
+                    "uv": [1,5,15,16],
+                    "texture": "#glass_side"
+                },
+                "south": {
+                    "uv": [1,5,15,16],
+                    "texture": "#glass_side"
+                }
+            }
+        },
+        {
+            "from": [1,2,1],
+            "to": [1,13,15],
+            "faces": {
+                "west": {
+                    "uv": [1,5,15,16],
+                    "texture": "#glass_side"
+                },
+                "east": {
+                    "uv": [1,5,15,16],
+                    "texture": "#glass_side"
+                }
+            }
+        },
+        {
+            "from": [15,2,1],
+            "to": [15,13,15],
+            "faces": {
+                "west": {
+                    "uv": [1,5,15,16],
+                    "texture": "#glass_side"
+                },
+                "east": {
+                    "uv": [1,5,15,16],
+                    "texture": "#glass_side"
+                }
+            }
+        },
+		
+		
+        {	"__comment": "Top Bevel Glass",
+            "from": [1,13,1],
+            "to": [15,17.2426,1],
+            "rotation": { "origin": [ 8, 13, 1 ], "axis": "x", "angle": 45 },
+            "faces": {
+                "north": {
+                    "uv": [1,1,15,5],
+                    "texture": "#glass_side"
+                },
+                "south": {
+                    "uv": [1,1,15,5],
+                    "texture": "#glass_side"
+                }
+            }
+        },
+        {
+            "from": [1,13,15],
+            "to": [15,17.2426,15],
+            "rotation": { "origin": [ 8, 13, 15 ], "axis": "x", "angle": -45 },
+            "faces": {
+                "north": {
+                    "uv": [1,1,15,5],
+                    "texture": "#glass_side"
+                },
+                "south": {
+                    "uv": [1,1,15,5],
+                    "texture": "#glass_side"
+                }
+            }
+        },
+        {
+            "from": [15,13,1],
+            "to": [15,17.2426,15],
+            "rotation": { "origin": [ 15, 13, 8 ], "axis": "z", "angle": 45 },
+            "faces": {
+                "west": {
+                    "uv": [1,1,15,5],
+                    "texture": "#glass_side"
+                },
+                "east": {
+                    "uv": [1,1,15,5],
+                    "texture": "#glass_side"
+                }
+            }
+        },
+        {
+            "from": [1,13,1],
+            "to": [1,17.2426,15],
+            "rotation": { "origin": [ 1, 13, 8 ], "axis": "z", "angle": -45 },
+            "faces": {
+                "west": {
+                    "uv": [1,1,15,5],
+                    "texture": "#glass_side"
+                },
+                "east": {
+                    "uv": [1,1,15,5],
+                    "texture": "#glass_side"
+                }
+            }
+        },
+		
+		
+        {	"__comment": "Nether Star 1",
+            "from": [3.5,4.5,8],
+            "to": [12.5,13.5,8],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": -22.5 },
+			"shade": false,
+            "faces": {
+                "north": { "uv": [1,1,8,8],
+                    "texture": "#star"
+                },
+                "south": { "uv": [1,1,8,8],
+                    "texture": "#star"
+                }
+            }
+        },
+        {
+            "from": [8,4.5,3.5],
+            "to": [8,13.5,12.5],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": -22.5 },
+			"shade": false,
+            "faces": {
+                "west": { "uv": [1,1,8,8],
+                    "texture": "#star"
+                },
+                "east": { "uv": [1,1,8,8],
+                    "texture": "star"
+                }
+            }
+        },
+		
+		{	"__comment": "Nether Star 2",
+            "from": [3.5,4.5,8],
+            "to": [12.5,13.5,8],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": 0 },
+			"shade": false,
+            "faces": {
+                "north": { "uv": [9,1,16,8],
+                    "texture": "#star"
+                },
+                "south": { "uv": [9,1,16,8],
+                    "texture": "#star"
+                }
+            }
+        },
+        {
+            "from": [8,4.5,3.5],
+            "to": [8,13.5,12.5],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": 0 },
+			"shade": false,
+            "faces": {
+                "west": { "uv": [9,1,16,8],
+                    "texture": "#star"
+                },
+                "east": { "uv": [9,1,16,8],
+                    "texture": "star"
+                }
+            }
+        },
+		
+		{	"__comment": "Nether Star 3",
+            "from": [3.5,4.5,8],
+            "to": [12.5,13.5,8],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": 22.5 },
+			"shade": false,
+            "faces": {
+                "north": { "uv": [1,9,8,16],
+                    "texture": "#star"
+                },
+                "south": { "uv": [1,9,8,16],
+                    "texture": "#star"
+                }
+            }
+        },
+        {
+            "from": [8,4.5,3.5],
+            "to": [8,13.5,12.5],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": 22.5 },
+			"shade": false,
+            "faces": {
+                "west": { "uv": [1,9,8,16],
+                    "texture": "#star"
+                },
+                "east": { "uv": [1,9,8,16],
+                    "texture": "star"
+                }
+            }
+        },
+		
+		{	"__comment": "Nether Star 4",
+            "from": [3.5,4.5,8],
+            "to": [12.5,13.5,8],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": 45 },
+			"shade": false,
+            "faces": {
+                "north": { "uv": [9,9,16,16],
+                    "texture": "#star"
+                },
+                "south": { "uv": [9,9,16,16],
+                    "texture": "#star"
+                }
+            }
+        },
+        {
+            "from": [8,4.5,3.5],
+            "to": [8,13.5,12.5],
+            "rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": 45 },
+			"shade": false,
+            "faces": {
+                "west": { "uv": [9,9,16,16],
+                    "texture": "#star"
+                },
+                "east": { "uv": [9,9,16,16],
+                    "texture": "star"
+                }
+            }
+        }
+    ]
+}

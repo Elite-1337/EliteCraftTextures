@@ -1,0 +1,127 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "textures": {
+        "particle": "blocks/ice",
+        "outside": "blocks/ice",
+        "inside": "blocks/sanity/ice_inside",
+        "triangle": "blocks/sanity/ice_triangle"
+    },
+    "elements": [
+        {	"__comment": "Inner Triangle",
+            "from": [0,0,0],
+            "to": [16,22.6274,0],
+            "rotation": { "origin": [ 8, 0, 0 ], "axis": "x", "angle": 45 },
+			"shade": false,
+            "faces": {
+                "north": {
+                    "uv": [0,0,16,16],
+                    "texture": "#triangle",
+                    "rotation": 90
+                },
+                "south": {
+                    "uv": [0,0,16,16],
+                    "texture": "#triangle",
+                    "rotation": 90
+                }
+            }
+        },
+		{
+            "from": [0,0,0],
+            "to": [16,16,0],
+			"shade": false,
+            "faces": {
+                "north": {
+                    "texture": "#outside",
+                    "cullface": "north"
+                },
+                "south": {
+                    "texture": "#inside",
+                    "rotation": 180,
+                    "cullface": "north"
+                }
+            }
+        },
+        {
+            "from": [0,0,16],
+            "to": [16,16,16],
+			"shade": false,
+            "faces": {
+                "north": {
+                    "texture": "#inside",
+                    "rotation": 180,
+                    "cullface": "south"
+                },
+                "south": {
+                    "texture": "#outside",
+                    "cullface": "south"
+                }
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [0,16,16],
+			"shade": false,
+            "faces": {
+                "west": {
+                    "texture": "#outside",
+                    "cullface": "west"
+                },
+                "east": {
+                    "texture": "#inside",
+                    "rotation": 180,
+                    "cullface": "west"
+                }
+            }
+        },
+        {
+            "from": [16,0,0],
+            "to": [16,16,16],
+			"shade": false,
+            "faces": {
+                "west": {
+                    "texture": "#inside",
+                    "rotation": 180,
+                    "cullface": "east"
+                },
+                "east": {
+                    "texture": "#outside",
+                    "cullface": "east"
+                }
+            }
+        },
+        {
+            "from": [0,16,0],
+            "to": [16,16,16],
+			"shade": false,
+            "faces": {
+                "up": {
+                    "texture": "#outside",
+                    "cullface": "up"
+                },
+                "down": {
+                    "texture": "#inside",
+                    "rotation": 180,
+                    "cullface": "up"
+                }
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [16,0,16],
+			"shade": false,
+            "faces": {
+                "up": {
+                    "texture": "#inside",
+                    "rotation": 180,
+                    "cullface": "down"
+                },
+                "down": {
+                    "texture": "#outside",
+                    "cullface": "down"
+                }
+            }
+        }
+    ]
+}

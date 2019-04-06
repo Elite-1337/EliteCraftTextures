@@ -1,0 +1,9 @@
+{
+    "parent": "block/sanity/stairs_outer_270_inv",
+    "textures": {
+        "bottom": "blocks/stonebrick",
+        "top": "blocks/sanity/stonebrick_stairs_corner_outer",
+        "side": "blocks/stonebrick",
+		"inside": "blocks/sanity/stonebrick_stairs"
+    }
+}

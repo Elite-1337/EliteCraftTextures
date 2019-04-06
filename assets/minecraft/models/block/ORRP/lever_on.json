@@ -1,0 +1,134 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/sanity/lever",
+        "lever": "blocks/sanity/lever"
+    },
+    "elements": [
+        {
+            "from": [6,0,2],
+            "to": [10,2,14],
+            "faces": {
+                "up": {
+                    "uv": [12.0,12.0,8.0,0.0],
+                    "texture": "#lever"
+                },
+                "down": {
+                    "uv": [12.0,0.0,16.0,12.0],
+                    "texture": "#lever",
+                    "cullface": "down"
+                },
+                "west": {
+                    "uv": [0.0,12.0,12.0,14.0],
+                    "texture": "#lever"
+                },
+                "east": {
+                    "uv": [0.0,12.0,12.0,14.0],
+                    "texture": "#lever"
+                },
+                "north": {
+                    "uv": [4.0,12.0,8.0,14.0],
+                    "texture": "#lever"
+                },
+                "south": {
+                    "uv": [4.0,12.0,8.0,14.0],
+                    "texture": "#lever"
+                }
+            }
+        },
+        {
+            "from": [2,0,6],
+            "to": [6,2,10],
+            "faces": {
+                "up": {
+                    "uv": [8.0,12.0,4.0,8.0],
+                    "texture": "#lever"
+                },
+                "down": {
+                    "uv": [4.0,4.0,8.0,8.0],
+                    "texture": "#lever",
+                    "cullface": "down"
+                },
+                "west": {
+                    "uv": [4.0,4.0,8.0,6.0],
+                    "texture": "#lever"
+                },
+                "east": {
+                    "uv": [4.0,0.0,12.0,3.0],
+                    "texture": "#lever"
+                },
+                "north": {
+                    "uv": [8.0,4.0,4.0,6.0],
+                    "texture": "#lever"
+                },
+                "south": {
+                    "uv": [0.0,12.0,4.0,14.0],
+                    "texture": "#lever"
+                }
+            }
+        },
+        {
+            "from": [10,0,6],
+            "to": [14,2,10],
+            "faces": {
+                "up": {
+                    "uv": [16.0,16.0,12.0,12.0],
+                    "texture": "#lever"
+                },
+                "down": {
+                    "uv": [8.0,12.0,12.0,16.0],
+                    "texture": "#lever",
+                    "cullface": "down"
+                },
+                "west": {
+                    "uv": [4.0,0.0,12.0,3.0],
+                    "texture": "#lever"
+                },
+                "east": {
+                    "uv": [8.0,4.0,4.0,6.0],
+                    "texture": "#lever"
+                },
+                "north": {
+                    "uv": [0.0,12.0,4.0,14.0],
+                    "texture": "#lever"
+                },
+                "south": {
+                    "uv": [12.0,12.0,8.0,14.0],
+                    "texture": "#lever"
+                }
+            }
+        },
+        {
+            "from": [7,1,1],
+            "to": [9,3,9],
+            "rotation": { "origin": [ 8, 1, 7 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "up": {
+                    "uv": [2.0,4.0,4.0,12.0],
+                    "texture": "#lever"
+                },
+                "down": {
+                    "uv": [4.0,12.0,2.0,4.0],
+                    "texture": "#lever"
+                },
+                "west": {
+                    "uv": [4.0,12.0,2.0,4.0],
+                    "texture": "#lever",
+                    "rotation": 90
+                },
+                "east": {
+                    "uv": [4.0,4.0,2.0,12.0],
+                    "texture": "#lever",
+                    "rotation": 90
+                },
+                "north": {
+                    "uv": [2.0,6.0,0.0,4.0],
+                    "texture": "#lever"
+                }
+            }
+        }
+    ]
+}

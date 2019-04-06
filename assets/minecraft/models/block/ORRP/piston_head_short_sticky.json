@@ -1,0 +1,11 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/sanity/piston_head_short",
+    "textures": {
+        "platform": "blocks/piston_top_sticky",
+        "side": "blocks/sanity/piston_side",
+        "back": "blocks/sanity/piston_back",
+        "shaft": "blocks/sanity/piston_shaft"
+    }
+}

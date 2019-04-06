@@ -1,0 +1,7 @@
+{
+    "parent": "block/sanity/trapdoor_top_open",
+    "textures": {
+        "particle": "blocks/sanity/oak_trapdoor_top",
+		"texture": "blocks/sanity/oak_trapdoor_top"
+    }
+}

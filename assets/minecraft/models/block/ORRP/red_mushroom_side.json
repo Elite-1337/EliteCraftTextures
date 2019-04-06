@@ -1,0 +1,14 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/cube",
+    "textures": {
+        "particle": "blocks/mushroom_block_inside",
+        "down": "blocks/sanity/mushroom_block_inside_stripes_fade",
+        "up": "blocks/mushroom_block_skin_red",
+        "north": "blocks/sanity/mushroom_block_inside_stripes",
+        "east": "blocks/mushroom_block_inside",
+        "south": "blocks/mushroom_block_skin_red",
+        "west": "blocks/mushroom_block_inside"
+    }
+}

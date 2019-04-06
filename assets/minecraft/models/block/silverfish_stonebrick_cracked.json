@@ -1,0 +1,8 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/cube_all",
+    "textures": {
+        "all": "blocks/sanity/silverfish_stonebrick_cracked"
+    }
+}

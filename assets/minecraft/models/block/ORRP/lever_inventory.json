@@ -1,0 +1,163 @@
+{	
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/sanity/lever",
+        "lever": "blocks/sanity/lever"
+    },
+	"display": {
+        "gui": {
+            "rotation": [ 120, 0, 315 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 1.15, 1.15, 1.15 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 1.5],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 225, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    },
+    "elements": [
+        {
+            "from": [6,7,2],
+            "to": [10,9,14],
+            "faces": {
+                "up": {
+                    "uv": [16,12,12,0],
+                    "texture": "#lever"
+                },
+                "down": {
+                    "uv": [12,0,16,12],
+                    "texture": "#lever",
+                    "cullface": "down"
+                },
+                "west": {
+                    "uv": [0,12,12,14],
+                    "texture": "#lever"
+                },
+                "east": {
+                    "uv": [0,12,12,14],
+                    "texture": "#lever"
+                },
+                "north": {
+                    "uv": [4,12,8,14],
+                    "texture": "#lever"
+                },
+                "south": {
+                    "uv": [4,12,8,14],
+                    "texture": "#lever"
+                }
+            }
+        },
+        {
+            "from": [2,7,6],
+            "to": [6,9,10],
+            "faces": {
+                "up": {
+                    "uv": [8,8,4,4],
+                    "texture": "#lever"
+                },
+                "down": {
+                    "uv": [4,4,8,8],
+                    "texture": "#lever",
+                    "cullface": "down"
+                },
+                "west": {
+                    "uv": [4,4,8,6],
+                    "texture": "#lever"
+                },
+                "east": {
+                    "uv": [4,0,12,3],
+                    "texture": "#lever"
+                },
+                "north": {
+                    "uv": [8,4,4,6],
+                    "texture": "#lever"
+                },
+                "south": {
+                    "uv": [0,12,4,14],
+                    "texture": "#lever"
+                }
+            }
+        },
+        {
+            "from": [10,7,6],
+            "to": [14,9,10],
+            "faces": {
+                "up": {
+                    "uv": [12,16,8,12],
+                    "texture": "#lever"
+                },
+                "down": {
+                    "uv": [8,12,12,16],
+                    "texture": "#lever",
+                    "cullface": "down"
+                },
+                "west": {
+                    "uv": [4,0,12,3],
+                    "texture": "#lever"
+                },
+                "east": {
+                    "uv": [8,4,4,6],
+                    "texture": "#lever"
+                },
+                "north": {
+                    "uv": [0,12,4,14],
+                    "texture": "#lever"
+                },
+                "south": {
+                    "uv": [12,12,8,14],
+                    "texture": "#lever"
+                }
+            }
+        },
+        {
+            "from": [7,8,7],
+            "to": [9,16,9],
+            "faces": {
+                "up": {
+                    "uv": [2,6,0,4],
+                    "texture": "#lever"
+                },
+                "west": {
+                    "uv": [0,4,2,12],
+                    "texture": "#lever"
+                },
+                "east": {
+                    "uv": [0,4,2,12],
+                    "texture": "#lever"
+                },
+                "north": {
+                    "uv": [0,4,2,12],
+                    "texture": "#lever"
+                },
+                "south": {
+                    "uv": [0,4,2,12],
+                    "texture": "#lever"
+                }
+            }
+        }
+    ]
+}

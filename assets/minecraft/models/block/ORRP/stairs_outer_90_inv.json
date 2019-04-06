@@ -1,0 +1,61 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "textures": {
+        "particle": "#side",
+        "inside": "#inside",
+		"side": "#side",
+		"bottom": "#bottom",
+		"top": "#top"
+    },
+    "elements": [
+        {
+            "from": [0,0,0],
+            "to": [16,8,16],
+            "faces": {
+                "up": {
+                    "texture": "#top"
+                },
+                "down": {
+                    "texture": "#bottom", "rotation": 270,
+                    "cullface": "down"
+                },
+                "west": {
+                    "texture": "#inside", "cullface": "west", "rotation": 180
+                },
+                "east": {
+                    "uv": [0,0,16,8], "texture": "#side", "cullface": "east", "rotation": 180
+                },
+                "north": {
+                    "texture": "#inside", "cullface": "north", "rotation": 180
+                },
+                "south": {
+                    "uv": [0,0,16,8], "texture": "#side", "cullface": "south", "rotation": 180
+                }
+            }
+        },
+        {
+            "from": [8,8,8],
+            "to": [16,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#top",
+                    "cullface": "up"
+                },
+                "west": {
+                    "texture": "#inside", "rotation": 180
+                },
+                "east": {
+                    "uv": [8,8,16,16], "texture": "#side", "cullface": "east", "rotation": 180
+                },
+                "north": {
+                    "uv": [0.0,0.0,8.0,8.0], "texture": "#inside", "rotation": 180
+                },
+                "south": {
+                    "uv": [0,8,8,16], "texture": "#side", "cullface": "south", "rotation": 180
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/sanity/wall_ne",
+    "textures": {
+        "wall": "blocks/nether_brick",
+		"post": "blocks/sanity/nether_brick_wall"
+    }
+}

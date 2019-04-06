@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "blocks/sanity/birch_planks_2",
+        "down": "blocks/sanity/birch_planks_2",
+        "up": "blocks/sanity/birch_planks_2",
+        "side": "blocks/sanity/birch_side"
+    }
+}

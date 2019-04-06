@@ -1,0 +1,82 @@
+{
+"__comment": "Designed by tomaxed with Cubik",
+"textures": {
+    "particle": "blocks/cobblestone_arch",
+    "cobblestone": "blocks/cobblestone",
+    "cobblestone_arch": "blocks/cobblestone_arch"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 16, 2 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 1 ], "texture": "#cobblestone" },
+        "up":    { "uv": [ 0, 0, 16, 1 ], "texture": "#cobblestone" },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cobblestone" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#cobblestone" },
+        "west":  { "uv": [ 0, 0, 1, 16 ], "texture": "#cobblestone_arch" },
+        "east":  { "uv": [ 0, 0, 1, 16 ], "texture": "#cobblestone_arch" }
+    }
+},
+{
+    "from": [ 0, 14, 2 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 0, 2, 16, 16 ], "texture": "#cobblestone" },
+        "up":    { "uv": [ 0, 2, 16, 16 ], "texture": "#cobblestone" },
+        "north": { "uv": [ 0, 0, 16, 2 ], "texture": "#cobblestone" },
+        "south": { "uv": [ 0, 0, 16, 2 ], "texture": "#cobblestone" },
+        "west":  { "uv": [ 2, 0, 16, 2 ], "texture": "#cobblestone_arch" },
+        "east":  { "uv": [ 16, 0, 2, 2 ], "texture": "#cobblestone_arch" }
+    }
+},
+{
+    "from": [ 0, 4, 2 ],
+    "to": [ 16, 14, 4 ],
+    "faces": {
+        "down":  { "uv": [ 0, 2, 16, 4 ], "texture": "#cobblestone" },
+        "up":    { "uv": [ 0, 2, 16, 4 ], "texture": "#cobblestone" },
+        "north": { "uv": [ 0, 2, 16, 12 ], "texture": "#cobblestone" },
+        "south": { "uv": [ 0, 2, 16, 12 ], "texture": "#cobblestone" },
+        "west":  { "uv": [ 2, 2, 4, 12 ], "texture": "#cobblestone_arch" },
+        "east":  { "uv": [ 4, 2, 2, 12 ], "texture": "#cobblestone_arch" }
+    }
+},
+{
+    "from": [ 0, 12, 4 ],
+    "to": [ 16, 14, 12 ],
+    "faces": {
+        "down":  { "uv": [ 0, 4, 16, 12 ], "texture": "#cobblestone" },
+        "up":    { "uv": [ 0, 4, 16, 12 ], "texture": "#cobblestone" },
+        "north": { "uv": [ 0, 2, 16, 4 ], "texture": "#cobblestone" },
+        "south": { "uv": [ 0, 2, 16, 4 ], "texture": "#cobblestone" },
+        "west":  { "uv": [ 4, 2, 12, 4 ], "texture": "#cobblestone_arch" },
+        "east":  { "uv": [ 12, 2, 4, 4 ], "texture": "#cobblestone_arch" }
+    }
+},
+{
+    "from": [ 0, 8, 4 ],
+    "to": [ 16, 12, 6 ],
+    "faces": {
+        "down":  { "uv": [ 0, 4, 16, 6 ], "texture": "#cobblestone" },
+        "up":    { "uv": [ 0, 4, 16, 6 ], "texture": "#cobblestone" },
+        "north": { "uv": [ 0, 4, 16, 8 ], "texture": "#cobblestone" },
+        "south": { "uv": [ 0, 4, 16, 8 ], "texture": "#cobblestone" },
+        "west":  { "uv": [ 4, 4, 6, 8 ], "texture": "#cobblestone_arch" },
+        "east":  { "uv": [ 6, 4, 4, 8 ], "texture": "#cobblestone_arch" }
+    }
+},
+{
+    "from": [ 0, 10, 6 ],
+    "to": [ 16, 12, 8 ],
+    "faces": {
+        "down":  { "uv": [ 0, 6, 16, 8 ], "texture": "#cobblestone" },
+        "up":    { "uv": [ 0, 6, 16, 8 ], "texture": "#cobblestone" },
+        "north": { "uv": [ 0, 4, 16, 6 ], "texture": "#cobblestone" },
+        "south": { "uv": [ 0, 4, 16, 6 ], "texture": "#cobblestone" },
+        "west":  { "uv": [ 6, 4, 8, 6 ], "texture": "#cobblestone_arch" },
+        "east":  { "uv": [ 8, 4, 6, 6 ], "texture": "#cobblestone_arch" }
+    }
+}
+]
+}

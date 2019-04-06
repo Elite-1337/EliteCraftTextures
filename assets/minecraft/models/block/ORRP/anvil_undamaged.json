@@ -1,0 +1,13 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/sanity/anvil",
+    "textures": {
+        "particle": "blocks/anvil_base",
+        "bottom": "blocks/sanity/anvil_bottom",
+        "top": "blocks/sanity/anvil_0_top",
+		"front": "blocks/sanity/anvil_0_front",
+		"back": "blocks/sanity/anvil_0_back",
+		"side": "blocks/sanity/anvil_0_side"
+    }
+}

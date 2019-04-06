@@ -1,0 +1,9 @@
+{
+    "parent": "block/sanity/cube_mirrored_top_bottom",
+    "textures": {
+        "particle": "blocks/sanity/acacia_planks_4",
+        "down": "blocks/sanity/acacia_planks_4",
+        "up": "blocks/sanity/acacia_planks_4",
+        "side": "blocks/sanity/acacia_side_2"
+    }
+}

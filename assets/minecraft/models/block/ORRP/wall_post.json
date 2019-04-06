@@ -1,0 +1,74 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "textures": {
+        "particle": "#post",
+        "post": "#post",
+        "wall": "#wall"
+    },
+    "elements": [
+        {
+            "from": [5,0,5],
+            "to": [11,16,11],
+            "faces": {
+                "up": {
+                    "uv": [1,1,7,7],
+                    "texture": "#post",
+                    "cullface": "up"
+                },
+                "down": {
+                    "texture": "#wall",
+                    "cullface": "down"
+                },
+                "west": {
+                    "uv": [9,0,15,16],
+                    "texture": "#post"
+                },
+                "east": {
+                    "uv": [9,0,15,16],
+                    "texture": "#post"
+                },
+                "north": {
+                    "uv": [9,0,15,16],
+                    "texture": "#post"
+                },
+                "south": {
+                    "uv": [9,0,15,16],
+                    "texture": "#post"
+                }
+            }
+        },
+        {
+            "from": [6.05,16,6.05],
+            "to": [9.95,19,9.95],
+            "faces": {
+                "up": {
+                    "uv": [2,2,6,6],
+                    "texture": "#post",
+                    "cullface": "up"
+                },
+                "west": {
+                    "uv": [2,4,6,7],
+                    "texture": "#post",
+                    "cullface": "up"
+                },
+                "east": {
+                    "uv": [2,4,6,7],
+                    "texture": "#post",
+                    "cullface": "up"
+                },
+                "north": {
+                    "uv": [2,4,6,7],
+                    "texture": "#post",
+                    "cullface": "up"
+                },
+                "south": {
+                    "uv": [2,5,6,8],
+                    "texture": "#post",
+                    "cullface": "up"
+                }
+            }
+        }
+    ]
+}

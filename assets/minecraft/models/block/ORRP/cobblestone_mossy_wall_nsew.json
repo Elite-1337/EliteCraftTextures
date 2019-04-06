@@ -1,0 +1,9 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"parent": "block/sanity/wall_nsew",
+    "textures": {
+        "wall": "blocks/cobblestone_mossy",
+		"post": "blocks/sanity/cobblestone_mossy_wall"
+    }
+}

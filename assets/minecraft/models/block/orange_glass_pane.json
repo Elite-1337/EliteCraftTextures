@@ -1,0 +1,5 @@
+{
+    "parent": "block/sanity/glass_pane_items/glass_pane_base",
+    "textures": { "face": "blocks/glass_orange", "edge": "blocks/glass_pane_top_orange"
+    }
+}

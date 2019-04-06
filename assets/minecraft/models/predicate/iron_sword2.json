@@ -1,0 +1,35 @@
+{
+"parent": "predicate/iron_sword",
+"textures": {
+    "particle": "weaponstools/iron_sword2",
+    "texture": "weaponstools/iron_sword2"
+},
+
+"display": {
+    "thirdperson_righthand": {
+        "rotation": [ 0, 180, 0 ],
+        "translation": [ 0, 8.88, 2.08 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "ground": {
+        "rotation": [ 45, 0, 0 ],
+        "translation": [ 0, 4.35, 0 ],
+        "scale": [ 0.35, 0.35, 0.35 ]
+    },
+    "fixed": {
+        "rotation": [ 90, -45, 90 ],
+        "translation": [ -1, -1, -0.1 ],
+        "scale": [ 0.8, 0.8, 0.8 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ 11, -177, 3 ],
+        "translation": [ 5.09, 0.38, -4.34 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "gui": {
+        "rotation": [ 90, 45, -90 ],
+        "translation": [ 1.13, -0.76, 0 ],
+        "scale": [ 0.65, 0.65, 0.65 ]
+    }
+}
+}

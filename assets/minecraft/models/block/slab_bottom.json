@@ -1,0 +1,9 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "particle": "blocks/sanity/acacia_planks_1",
+        "bottom": "blocks/sanity/acacia_slab",
+        "top": "blocks/sanity/acacia_slab",
+        "side": "blocks/sanity/acacia_siding"
+    }
+}

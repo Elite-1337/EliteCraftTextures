@@ -1,0 +1,43 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "#texture"
+    },
+    "elements": [
+        {
+            "from": [0,0,14],
+            "to": [16,16,16],
+            "faces": {
+                "up": {
+                    "uv": [0,16,2,0],
+                    "texture": "#particle",
+                    "cullface": "up",
+                    "rotation": 90
+                },
+                "down": {
+                    "texture": "#particle",
+                    "cullface": "down"
+                },
+                "west": {
+                    "uv": [16,0,14,16],
+                    "texture": "#particle",
+                    "cullface": "west"
+                },
+                "east": {
+                    "texture": "#particle",
+                    "cullface": "east"
+                },
+                "north": {
+                    "texture": "#particle"
+                },
+                "south": {
+                    "texture": "#particle",
+                    "cullface": "south"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "__copyright": "2016 Alvoria - http://goo.gl/MNJLF",
+	"__license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License",
+	"__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "side": "#side",
+        "top": "#top",
+        "bottom": "#bottom",
+        "particle": "#side",
+        "inside": "#inside"
+    },
+    "elements": [
+        {
+            "from": [0,0,0],
+            "to": [16,8,16],
+            "faces": {
+                "up": {
+                    "texture": "#top"
+                },
+                "down": {
+                    "texture": "#bottom",
+                    "cullface": "down",
+                    "rotation": 90
+                },
+                "west": {
+                    "texture": "#side",
+                    "cullface": "west",
+                    "rotation": 180
+                },
+                "east": {
+                    "texture": "#side",
+                    "cullface": "east",
+                    "rotation": 180
+                },
+                "north": {
+                    "uv": [0,0,16,8],
+                    "texture": "#side",
+                    "cullface": "north",
+                    "rotation": 180
+                },
+                "south": {
+                    "uv": [0,0,16,8],
+                    "texture": "#side",
+                    "cullface": "south",
+                    "rotation": 180
+                }
+            }
+        },
+        {
+            "from": [8,8,0],
+            "to": [16,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#top",
+                    "cullface": "up"
+                },
+                "west": {
+                    "texture": "#inside",
+                    "rotation": 180
+                },
+                "east": {
+                    "texture": "#side",
+                    "cullface": "east",
+                    "rotation": 180
+                },
+                "north": {
+                    "uv": [0,8,8,16],
+                    "texture": "#side",
+                    "cullface": "north",
+                    "rotation": 180
+                },
+                "south": {
+                    "uv": [0,8,8,16],
+                    "texture": "#side",
+                    "cullface": "south",
+                    "rotation": 180
+                }
+            }
+        },
+        {
+            "from": [0,8,8],
+            "to": [8,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#top",
+                    "cullface": "up"
+                },
+                "down": {
+                    "uv": [0.0,0.0,8.0,8.0],
+                    "texture": "missingtexture",
+                    "cullface": "down",
+                    "rotation": 90
+                },
+                "west": {
+                    "uv": [0,8,8,16],
+                    "texture": "#side",
+                    "cullface": "west",
+                    "rotation": 180
+                },
+                "north": {
+                    "uv": [8.0,0.0,16.0,8.0],
+                    "texture": "#inside",
+                    "rotation": 180
+                },
+                "south": {
+                    "uv": [8,8,16,16],
+                    "texture": "#side",
+                    "cullface": "south",
+                    "rotation": 180
+                }
+            }
+        }
+    ]
+}
